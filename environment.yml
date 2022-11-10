@@ -1,0 +1,27 @@
+name: Hubble_meets_Webb
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - cudatoolkit=10.2.89=hfd86e86_1
+  - numpy=1.23.3=py310hd5efca6_1
+  - pillow=9.2.0=py310hace64e9_1
+  - pip=22.2.2=py310h06a4308_0
+  - python=3.10.6=haa1d7c7_1
+  - pytorch=1.12.1=py3.10_cuda10.2_cudnn7.6.5_0
+  - torchvision=0.13.1=py310_cu102
+  - pip:
+    - beautifulsoup4==4.11.1
+    - clean-fid==0.1.34
+    - git+https://github.com/openai/CLIP.git
+    - dominate==2.7.0
+    - ftfy==6.1.1
+    - imageio==2.22.4
+    - lpips==0.1.4
+    - opencv-python==4.6.0.66
+    - pandas==1.5.1
+    - scikit-image==0.19.3
+    - scipy==1.9.3
+    - tqdm==4.64.1
+    - visdom==0.2.3

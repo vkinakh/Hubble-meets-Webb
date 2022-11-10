@@ -3,6 +3,7 @@
 
 ### Checkpoints, idea etc ###
 experiments/
+experiments_palette/
 
 .DS_Store
 debug*
