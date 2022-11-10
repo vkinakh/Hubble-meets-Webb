@@ -2,6 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=pycharm,python,jupyternotebooks,images
 
 ### Checkpoints, idea etc ###
+experiments/
+
 .DS_Store
 debug*
 datasets/
