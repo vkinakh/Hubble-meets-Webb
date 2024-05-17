@@ -148,7 +148,32 @@ python compute_metrics.py \
 | **DDPM (Palette)**               | **0.001224** | **0.948** | **29.12** | 0.44     | **30.08** |
 
 ### Weights
-Coming soon
+| Method                       | Link         |
+|------------------------------|--------------|
+| L1                           | [Download](https://drive.switch.ch/index.php/s/aP8o1HwoxnKda2y) |
+| L2                           | [Download](https://drive.switch.ch/index.php/s/ySlT2hm4SV9sRdV) |
+| Elastic net(L1+L2)           | [Download](https://drive.switch.ch/index.php/s/4LrQr2XAxAsLdID) |
+| L1+LPIPS                     | [Download](https://drive.switch.ch/index.php/s/LwTJoBs5I1S116u) |
+| Pix2Pix                      | [Download](https://drive.switch.ch/index.php/s/AM2ymtjJJSlEzml) |
+| Pix2Pix+LPIPS                | [Download](https://drive.switch.ch/index.php/s/PjciwQCIsNueJd7) |
+| Turbo                        | [Download](https://drive.switch.ch/index.php/s/1MJ8agiymfa9eoW) |
+| Turbo+LPIPS                  | [Download](https://drive.switch.ch/index.php/s/xQ4nNkrs9r2Wq7Y) |
+| Turbo one cycle(L^reverse)   | [Download](https://drive.switch.ch/index.php/s/Gosy4jXlo8DBgQj) |
+| Turbo one cycle(L^reverse)+LPIPS | [Download](https://drive.switch.ch/index.php/s/EGWV2Or4c0e8x6s) |
+| Turbo same D                 | [Download](https://drive.switch.ch/index.php/s/ZLTDFCjbqlYPy7w) |
+| Turbo same D+LPIPS           | [Download](https://drive.switch.ch/index.php/s/zMXLlK3jEhijI8d) |
+| DDPM (Palette)               | [Download](https://drive.switch.ch/index.php/s/AtRm5dXbyiBAulO) |
 
 ## Citation
-Coming soon
+```
+@article{kinakh2024hubble,
+  title={Hubble Meets Webb: Image-to-Image Translation in Astronomy},
+  author={Kinakh, Vitaliy and Belousov, Yury and Qu{\'e}tant, Guillaume and Drozdova, Mariia and Holotyak, Taras and Schaerer, Daniel and Voloshynovskiy, Slava},
+  journal={Sensors},
+  volume={24},
+  number={4},
+  pages={1151},
+  year={2024},
+  publisher={MDPI}
+}
+```
